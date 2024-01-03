@@ -1,4 +1,4 @@
-"use client"
+
 import Image from 'next/image';
 import React from 'react'
 
@@ -11,7 +11,7 @@ interface props{
 
 const ProjectCard = ({src, title , description}:props) => {
   return (
-    <div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]'>
+    <div className='relative overflow-hidden h-[555px] w-[400px] flex-wrap rounded-lg shadow-lg border border-[#2A0E61]'>
         <Image
         src={src}
         alt={title}
