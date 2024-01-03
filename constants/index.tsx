@@ -250,6 +250,8 @@ export const Skill_data = [
       height: 60,
     },
   ];
+
+  
   
   
   
