@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div className='text-[20px] text-white flex flex-row justify-between'>
             <h1 className='font-semibold text-[20px] text-white'>
-                    Contect me
+                    Contact me
             </h1>
             <a href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRrlzkxCnNwTwPMNDnhZndpDChQDvDgkxSNgvmvLRdsZXHZgCCmMpwVvjhqWdTqfxKdbXkV'
             className=' cursor-pointer' >
