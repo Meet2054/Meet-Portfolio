@@ -11,34 +11,47 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+
+      <div className="grid grid-cols-3 gap-10 mt-6 ">
         <ProjectCard
           src="/TravelCover.png"
-          title="Modern Next.js Travel Website"
-          description="Embark on unforgettable adventures with our Travel Camp Website! Immerse yourself in nature's beauty, connect with fellow travelers, and discover hidden gems around the globe. Our platform offers seamless exploration, from curated camping spots to thrilling outdoor activities. Join us in creating lifelong memories under the stars, where every journey is an opportunity for awe-inspiring experiences"
-        />
+          title="Travel Camp Website"
+          description="A Web app to book your next travel destination. It provides you with the best travel experience."
+            link='https://github.com/Meet2054/Travel-WebSite'
+          />
         <ProjectCard
           src="/Convia.png"
           title="Desentelize chat Web-app Convia"
           description="Revolutionize communication with a decentralized chat web app empowered by AI. Experience secure, peer-to-peer conversations enriched by intelligent bots, ensuring privacy while delivering seamless, intelligent interactions. Join the next era of conversational technology, where innovation meets privacy and intelligence for a connected yet secure world."
-        />
+          link='https://github.com/Meet2054/Travel-WebSite'
+
+          />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Space Themed Potfolio"
           description="My portfolio , you can know all about me here."
-        />
+          link='https://github.com/Meet2054/Travel-WebSite'
+
+          />
+         
         <ProjectCard
           src="/Anime.png"
           title="Anime Poster Infinte Scroll"
-          description="Embark on a captivating journey through the world of anime with our cutting-edge portfolio piece. Experience the allure of infinite scrolling fused seamlessly with AI technology on a Next.js 14 platform. Dive into the magic of Framer Motion animations and explore the mysteries of server-side actions. This immersive video demonstration will unveil the synergy of Next.js 14's capabilities, from infinite scrolling to AI integration, shaping the future of interactive experiences."
-        />
-      </div>
-      {/* <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+          description="A web app to search for anime posters and get the details of the anime."
+          link='travel-web-site-mu.vercel.app'
+
+          />
       <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Potfolio"
-          description="My portfolio , you can know all about me here."
+          src="/connect.png"
+          title="GuardAnon"
+          description="It is a decentralized app where you can share your problems anonymously and get help from the community."
+          link='travel-web-site-mu.vercel.app'
+
         />
-      </div> */}
+          
+      </div>
+          </div>
+      
     </div>
   );
 };
